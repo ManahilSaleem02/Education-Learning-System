@@ -4,18 +4,20 @@ A comprehensive Java-based education management system that integrates course re
 
 # Features
 
-# 1. Course Registration System
+1. Course Registration System
 Enroll in courses with automatic schedule conflict detection
 View personal class schedule
 Drop courses easily
 Pre-defined courses: OOP, Cyber Security, DSA, PF
-# 2. Gradebook System
+
+ 2. Gradebook System
 Enter and update student grades (0–100 scale)
 Automatic GPA calculation (4.0 scale)
 Generate official transcripts with letter grades
 View all students with their current GPA
 Grade conversion: Percentage → Letter Grade → GPA
-# 3. Library E-Reservation System
+
+ 3. Library E-Reservation System
 Reserve books with waiting list management
 Return books with automatic next-student assignment
 View book status (available/reserved)
@@ -40,18 +42,20 @@ com/education/system/
 
 # 🚀 Getting Started
 
-# Prerequisites
+1. Prerequisites
 Java 8 or higher
 VS Code (recommended) or any Java IDE
 Git
 
-# Installation
+2. Installation
+   
 1. Clone the repository
 git clone git@github.com:ManahilSaleem02/Student-System.git
 cd Student-System
 2. Open in VS Code
 code .
-3. Run the application
+
+4. Run the application
 
 Navigate to Main.java and click Run, or use terminal:
 
@@ -59,7 +63,8 @@ javac com/education/system/*.java
 java com.education.system.Main
 
 # 💻 Usage Guide
-# 1.Default Login Credentials
+
+1.Default Login Credentials
 Students
 Ali (ID: 1)
 Maryam (ID: 2)
@@ -69,7 +74,8 @@ Ms. Shama (ID: 101)
 Sir Saad (ID: 102)
 Librarian
 Library Admin (ID: 201)
-# 2.Main Menu Options
+
+ 2.Main Menu Options
 Course Registration System (Student access)
 Gradebook System (Teacher access)
 Library E-Reservation System (Librarian access)
@@ -78,11 +84,13 @@ Student Features
 Enroll in courses (with time conflict detection)
 View class schedule
 Drop courses
-# 3.Teacher Features
+
+ 3.Teacher Features
 Enter and update grades
 Generate student transcripts
 View all students with GPA
-# 4.Librarian Features
+
+ 4.Librarian Features
 Reserve and return books
 Manage waiting lists
 Track book inventory
@@ -95,7 +103,8 @@ The system automatically saves student data to students.ser when exiting. On nex
 Enrolled courses
 Grade history
 Student information
-🛠️ Technologies Used
+
+# 🛠️ Technologies Used
 Language: Java (OOP concepts)
 Serialization: Data persistence
 Collections: ArrayList, HashMap, LinkedList
